@@ -151,9 +151,7 @@ void testCase() {
     }
   }
 
-  for (int rep = 0; rep < 69; ++rep) {
-    random_shuffle(toBlock.begin(), toBlock.end());
-  }
+  random_shuffle(toBlock.begin(), toBlock.end());
 
   flag = true;
 
